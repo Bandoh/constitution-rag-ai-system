@@ -1,0 +1,4 @@
+/model
+data/ghana_constitution.pdf
+/qdrant_storage
+.env

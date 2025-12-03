@@ -1,0 +1,24 @@
+[project]
+name = "legal-rag"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "llama-index>=0.14.8",
+    "llama-index-embeddings-huggingface>=0.6.1",
+    "llama-index-embeddings-openai>=0.5.1",
+    "llama-index-llms-llama-cpp>=0.5.1",
+    "llama-index-llms-ollama>=0.9.0",
+    "llama-index-vector-stores-qdrant>=0.9.0",
+    "ollama>=0.6.1",
+    "pydantic>=2.12.5",
+    "python-dotenv>=1.2.1",
+    "pytorch-triton-xpu",
+    "qdrant-client>=1.16.1",
+    "torch",
+]
+
+[tool.uv.sources]
+pytorch-triton-xpu = { path = "../../custom_pips/pytorch_triton_xpu-3.5.0+git1b0418a9-cp314-cp314-manylinux_2_27_x86_64.manylinux_2_28_x86_64.whl" }
+torch = { path = "../../custom_pips/torch-2.10.0.dev20250927+xpu-cp314-cp314-linux_x86_64.whl" }
