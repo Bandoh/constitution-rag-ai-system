@@ -29,8 +29,8 @@ This project implements a conversational AI system that answers questions about 
 
 ### 1. Clone the repository
 ```bash
-git clone <your-repo-url>
-cd <repo-name>
+git clone https://github.com/Bandoh/constitution-rag-ai-system.git
+cd constitution-rag-ai-system
 ```
 
 ### 2. Install Python dependencies
@@ -79,7 +79,7 @@ ollama pull llama3.1:8b
 ollama pull llama3.1:70b
 ```
 
-For this example, we'll use `llama3.2`:
+For this example, we'll use `llama3.2`:https://github.com/Bandoh/constitution-rag-ai-system/blob/main/README.md
 ```bash
 ollama pull llama3.2
 ```
